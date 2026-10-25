@@ -1,5 +1,7 @@
 # cwsim — IONOS/Watterson HF チャネルを通したラベル付き CW
 
+[English](README.md) | **日本語**
+
 既知のテキストを **IONOS シミュレータが実装しているのと同じフェージングチャネルに通したモールス音**に変換し、サンプル精度の正解ラベルと一緒に出力するオフライン生成器。CW（モールス）復調器の訓練・評価データを作るために作られており、ボトルネックは計算量ではなくラベル付きデータである。
 
 `src/HFSim_BFD_2_05/HFSim_BFD_2_05.ino`（IONOS HF/VHF Channel Simulator, © 2020 Amateur Radio Safety Foundation Inc., MIT）の DSP を抽出したもの。数学は意図的にそのまま残し、Teensy のリアルタイム処理系は持ち込んでいない。

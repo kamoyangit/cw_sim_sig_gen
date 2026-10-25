@@ -1,5 +1,7 @@
 # cwsim — labelled CW through an IONOS/Watterson HF channel
 
+**English** | [日本語](README_JP.md)
+
 Offline generator that turns known text into **Morse audio passed through the same
 fading channel the IONOS simulator implements**, together with sample-exact ground
 truth. Built to produce training and evaluation data for CW (Morse) decoders, where

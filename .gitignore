@@ -1,0 +1,12 @@
+# build output
+build/
+
+# Python
+__pycache__/
+*.pyc
+
+# generated datasets (large, reproducible from generate_dataset.sh)
+dataset_cw_train/
+
+# macOS
+.DS_Store
